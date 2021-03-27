@@ -58,3 +58,8 @@ class _DicePageState extends State<DicePage> {
     );
   }
 }
+
+// Ideas:
+//     -better colors
+//     -AR funcionality
+//     -
