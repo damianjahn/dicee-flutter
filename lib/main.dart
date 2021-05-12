@@ -5,11 +5,11 @@ void main() {
   return runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
-        appBar: AppBar(
-          title: Text('Dicee'),
-          backgroundColor: Colors.red,
-        ),
+        backgroundColor: Colors.lightBlueAccent,
+        // appBar: AppBar(
+        //   title: Text('Dicee'),
+        //   backgroundColor: Colors.lightBlue,
+        // ),
         body: DicePage(),
       ),
     ),
@@ -38,7 +38,7 @@ class _DicePageState extends State<DicePage> {
       child: Row(
         children: <Widget>[
           Expanded(
-            child: FlatButton(
+            child: TextButton(
               onPressed: (){
                 changeDiceFace();
               },
@@ -46,7 +46,7 @@ class _DicePageState extends State<DicePage> {
             ),
           ),
           Expanded(
-            child: FlatButton(
+            child: TextButton(
               onPressed: (){
                changeDiceFace();
               },
@@ -60,6 +60,6 @@ class _DicePageState extends State<DicePage> {
 }
 
 // Ideas:
-//     -better colors
+//     -better colors (open randomly)
 //     -AR funcionality
-//     -
+//     - https://pub.dev/packages/arcore_flutter_plugin
