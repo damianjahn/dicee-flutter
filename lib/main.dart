@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
+import 'package:random_color/random_color.dart';
 
 void main() {
+
+  RandomColor _randomColor = RandomColor();
+  Color _color = _randomColor.randomColor();
+
   return runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: _color,
         // appBar: AppBar(
         //   title: Text('Dicee'),
         //   backgroundColor: Colors.lightBlue,
