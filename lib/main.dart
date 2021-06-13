@@ -65,6 +65,5 @@ class _DicePageState extends State<DicePage> {
 }
 
 // Ideas:
-//     -better colors (open randomly)
 //     -AR funcionality
 //     - https://pub.dev/packages/arcore_flutter_plugin
